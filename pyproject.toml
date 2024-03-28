@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "agency_swarm_project"
+version = "0.1.0"
+description = "Um projeto para criar e gerenciar campanhas de anúncios utilizando o Agency Swarm Tool."
+authors = ["Anderson Vieira <andersonvilarins@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+"facebook-business" = "^12.0"
+requests = "^2.31"
+pydantic = ">=2.0.2,<3.0.0"
+agency-swarm = "0.1.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
